@@ -55,7 +55,7 @@ function App() {
           x:new Date(times*1000),
           //o h l c
           y: [quote.open[index], quote.high[index],quote.low[index], quote.close[index]].map((item)=>{
-            console.log("item",item)
+            console.log("item",item);
             return round(item)
           })
         }]}
