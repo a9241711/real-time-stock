@@ -2,7 +2,6 @@ import { useEffect,useState } from 'react';
 import './App.css';
 import Chart from "react-apexcharts";
 
-const proxyUrl="https://cors-anywhere.herokuapp.com/";
 const dataUrl="https://yahoo-finance-api.vercel.app/GME";
 async function getData(){
   let response=await fetch(dataUrl);
@@ -12,7 +11,7 @@ async function getData(){
 // data: [{
 //   x: new Date(1538778600000),
 //   y: [6629.81, 6650.5, 6623.04, 6633.33]
-// },
+// },Y
 // ]
 const chart={
   
